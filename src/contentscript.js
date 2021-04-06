@@ -38,8 +38,8 @@ const Sound = {
   },
 
   _createAudio() {
-    const audio = new Audio(chrome.runtime.getURL('new_message.mp3'));
-    audio.volume = 0.5;
+    const audio = new Audio(chrome.runtime.getURL('notif.mp3'));
+    audio.volume = 0.1;
     return audio;
   },
 
